@@ -1,0 +1,81 @@
+.navbar,
+.navbar * {
+	/*border: 1px dotted red;*/
+}
+.navbar {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(0, 0, 0, 1);
+
+	position: fixed;
+	top: 0;
+	transition: all 200ms ease-out;
+}
+
+.hidden {
+	background-color: rgba(255, 255, 255, 0);
+	color: rgba(0, 0, 0, 0);
+	transition: background-color 100ms ease-in, color 100ms ease-in,
+		transform 200ms ease-in;
+	transition-delay: 0.2s;
+	transform: translate(0, -100%);
+}
+.nav-container {
+	padding: .5rem 1rem;
+	display: flex;
+}
+.nav-logo {
+	display: inline-flex;
+	align-items: center;
+}
+.nav-logo > * {
+	padding: 1rem;
+}
+
+.nav-item {
+	display: inline-flex;
+	/*align-items: center;*/
+}
+
+.nav-text {
+	display: inline;
+	color:black;
+	padding: .3rem 0;
+}
+
+.nav-text:hover {
+/*	        color: red;
+        border-bottom: 1px solid red;*/
+}
+
+.nav-item.right {
+	margin-left: auto;
+}
+
+.nav-social  {
+	display: inline-flex;
+	padding:1.125rem;
+	/*margin-left:.25rem;*/
+		align-items: center;
+}
+
+
+.nav-social >*  {
+	display: inline-flex;
+
+/*vertical-align: middle;*/
+		align-items: center;
+}
+
+.nav-text {
+		/*padding: 0.5rem 0;*/
+			/*align-items: center;*/
+			/*vertical-align: middle;*/
+	/*display: inline-flex;*/
+	/*align-items: center;*/
+}
+
+
+.nav-text-container {
+	padding: 1rem;
+}

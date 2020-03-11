@@ -1,0 +1,44 @@
+* {
+	/*border: 1px dotted red;*/
+}
+
+.tooltip-area-container {
+	border: 1px dotted red;
+	display: inline-flex;
+	cursor: pointer;
+	/*animation-delay: 1500ms;*/
+	/*color:white;*/
+}
+
+.tooltip {
+	color: white;
+	position: absolute;
+
+	background: rgba(0, 0, 0, 0.8);
+	max-width: 240px;
+	/*width: 240px;*/
+	padding: 0 .5rem;
+	border-radius: 5px;
+}
+
+.tooltip-btn {
+	display: flex;
+	padding: 1rem;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-duration: 5ms;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
