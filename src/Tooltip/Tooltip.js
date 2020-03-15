@@ -67,7 +67,7 @@ class TooltipApp extends React.Component {
 			tooltipPosition: {
 				// top: clickArea.y + clickArea.height - 8,
 				// top:"-1rem",
-				paddingTop:"-1rem",
+				// paddingTop:"-1rem",
 				// left: clickArea.x,
 				// left: "45%",
 				// bottom: "auto",
