@@ -1,12 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-
 import imgPlaceholder from "./Image/placeholder.jpg";
 import Navbar from "./Navbar/Navbar.js";
 import Icon from "./Icon/Icon.js";
 
 import "./App.css";
-
 
 class App extends React.Component {
   constructor(props) {
@@ -51,17 +49,24 @@ class App extends React.Component {
           }}
         >
           <h1>Lorem ipsum dolor sit amet</h1>
-          <p className="text-regular" style={{ maxWidth: "650px" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <div style={{ maxWidth: "680px" }}>
+            <p>
+              I'm a problem-solving creative with a passion for coherent digital
+              experiences. I love unraveling complexities with elegant solutions
+              that bridge people and technology.
+            </p>
+            <p>
+              In the past, I've worked in an in-house innovations lab, exploring
+              the intersection of travel and emerging technologies through a
+              design lens. Currently, I'm at a digital consultancy, designing
+              custom software for various companies and industries.
+            </p>
+          </div>
+          <div className="spacer-sm"></div>
+
           <div id="work" />
-          <h2 style={{ padding: "4rem 0 1.75rem 0" }}>Commodo</h2>
+
+          <h2 style={{ padding: "1.75rem 0" }}>Work</h2>
 
           <div className="proj-container" style={{ paddingBottom: "3.5rem" }}>
             <div id="proj-1">

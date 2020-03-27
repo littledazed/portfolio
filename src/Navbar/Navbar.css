@@ -2,7 +2,9 @@
 .navbar * {
 	/*border: 1px dotted red;*/
 }
+
 .navbar {
+	box-shadow: 0px 1px 8px -1px rgba(0,0,0,0);
 	width: 100%;
 	background-color: rgba(255, 255, 255, 1);
 	color: rgba(0, 0, 0, 1);
@@ -21,7 +23,7 @@
 	transform: translate(0, -100%);
 }
 .nav-container {
-	padding: .5rem 1rem;
+	padding: 0.5rem 1rem;
 	display: flex;
 }
 .nav-logo {
@@ -39,12 +41,12 @@
 
 .nav-text {
 	display: inline;
-	color:black;
-	padding: .3rem 0;
+	color: black;
+	padding: 0.3rem 0;
 }
 
 .nav-text:hover {
-/*	        color: red;
+	/*	        color: red;
         border-bottom: 1px solid red;*/
 }
 
@@ -52,29 +54,27 @@
 	margin-left: auto;
 }
 
-.nav-social  {
+.nav-social {
 	display: inline-flex;
-	padding:1.125rem;
+	padding: 1.125rem;
 	/*margin-left:.25rem;*/
-		align-items: center;
+	align-items: center;
 }
 
-
-.nav-social >*  {
+.nav-social > * {
 	display: inline-flex;
 
-/*vertical-align: middle;*/
-		align-items: center;
+	/*vertical-align: middle;*/
+	align-items: center;
 }
 
 .nav-text {
-		/*padding: 0.5rem 0;*/
-			/*align-items: center;*/
-			/*vertical-align: middle;*/
+	/*padding: 0.5rem 0;*/
+	/*align-items: center;*/
+	/*vertical-align: middle;*/
 	/*display: inline-flex;*/
 	/*align-items: center;*/
 }
-
 
 .nav-text-container {
 	padding: 1rem;
