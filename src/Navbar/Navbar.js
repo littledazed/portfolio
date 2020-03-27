@@ -149,7 +149,7 @@ class Navbar extends React.Component {
       >
         <div id="nav">
           <div className="nav-container">
-            <a href="../" className="nav-logo">
+            <a href="../portfolio" className="nav-logo">
               <img src={placeholderLogo} width="24px" />
             </a>
 
